@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Application Theme -->
+    <style name="Theme.DipAIAssistant" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Dark theme colors -->
+        <item name="colorPrimary">@color/color_primary_blue</item>
+        <item name="colorPrimaryVariant">@color/color_primary_blue_dark</item>
+        <item name="colorSecondary">@color/color_secondary_saffron</item>
+        <item name="colorSecondaryVariant">@color/color_secondary_saffron_dark</item>
+        <item name="android:colorBackground">@color/color_bg_dark</item>
+        <item name="android:colorForeground">@color/color_text_white</item>
+        <item name="android:textColorPrimary">@color/color_text_white</item>
+        <item name="android:textColorSecondary">@color/color_text_gray</item>
+        <item name="android:windowBackground">@color/color_bg_dark</item>
+        <item name="android:statusBarColor">@color/color_bg_dark</item>
+        <item name="android:navigationBarColor">@color/color_bg_dark_surface</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="materialButtonStyle">@style/Widget.DipAIAssistant.Button</item>
+    </style>
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.DipAIAssistant.Splash" parent="Theme.DipAIAssistant">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Material Button Style -->
+    <style name="Widget.DipAIAssistant.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/color_text_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <!-- Text Styles -->
+    <style name="TextStyle.Heading1">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/color_text_white</item>
+    </style>
+
+    <style name="TextStyle.Heading2">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/color_text_white</item>
+    </style>
+
+    <style name="TextStyle.Subtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/color_text_gray</item>
+    </style>
+
+    <style name="TextStyle.Body">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/color_text_white</item>
+    </style>
+
+    <style name="TextStyle.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/color_text_gray</item>
+    </style>
+
+    <!-- Light Theme Colors -->
+    <style name="Theme.DipAIAssistant.Light" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_primary_blue</item>
+        <item name="colorPrimaryVariant">@color/color_primary_blue_dark</item>
+        <item name="colorSecondary">@color/color_secondary_saffron</item>
+        <item name="colorSecondaryVariant">@color/color_secondary_saffron_dark</item>
+        <item name="android:colorBackground">@color/color_light_bg</item>
+        <item name="android:colorForeground">@color/color_light_text</item>
+        <item name="android:textColorPrimary">@color/color_light_text</item>
+        <item name="android:textColorSecondary">@color/color_text_gray</item>
+        <item name="android:windowBackground">@color/color_light_bg</item>
+        <item name="android:statusBarColor">@color/color_light_bg</item>
+        <item name="android:navigationBarColor">@color/color_light_surface</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>
